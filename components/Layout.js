@@ -1,4 +1,4 @@
-import styles from './Layout.module.css';
+import styles from '../styles/Layout.module.css';
 import utilSyles from '../styles/Utils.module.css'
 import Head from 'next/head';
 import Image from 'next/image';
@@ -30,7 +30,7 @@ const Layout = ({ children, home }) => {
                     <>
                         <Image
                             priority
-                            src="/./images/profile.jpg"
+                            src="/images/profile.jpg"
                             className={utilSyles.borderCircle}
                             height={144}
                             width={144}
@@ -43,7 +43,7 @@ const Layout = ({ children, home }) => {
                             <a>
                                 <Image
                                     priority
-                                    src="/./images/profile.jpg"
+                                    src="/images/profile.jpg"
                                     className={utilSyles.borderCircle}
                                     height={108}
                                     width={108}
